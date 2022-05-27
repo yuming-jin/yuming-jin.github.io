@@ -9,6 +9,3 @@ redirect_from:
 ---
 
 Yuming Jin is a Climate Science Ph.D. student at Scripps Institution of Oceanography, working with Dr. Ralph F. Keeling.
-
-
-Lorem ipsum.
