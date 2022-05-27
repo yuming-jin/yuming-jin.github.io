@@ -1,6 +1,5 @@
 ---
 layout: archive
-title: "CV"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -10,21 +9,3 @@ redirect_from:
 {% include base_path %}
 
 <embed src="https://yuming-jin.github.io/cv/CV.pdf" type="application/pdf" />
-
-Education
-======
-* B.S. in Environmental Sciences, Donghua University, 2018
-* Ph.D in Climate Science, Scripps Institution of Oceanography, 2023 (expected)
-
-Work experience
-======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-  
