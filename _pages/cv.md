@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-<a href="yuming-jin.github.io/_pages/CV.pdf" target="_blank">PDF.</a>
+<a href="yuming-jin.github.io/cv/CV.pdf" target="_blank">PDF.</a>
 
 Education
 ======
