@@ -8,4 +8,5 @@ redirect_from:
 
 {% include base_path %}
 
-<embed src="https://yuming-jin.github.io/cv/CV.pdf" type="application/pdf" />
+<a href="https://yuming-jin.github.io/cv/CV.pdf" target="_blank">Dowload</a>
+<embed src="https://yuming-jin.github.io/cv/CV.pdf" type="application/pdf" width="1200px" height="1200px" />
