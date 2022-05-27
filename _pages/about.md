@@ -8,4 +8,4 @@ redirect_from:
   - /about.html
 ---
 
-Yuming Jin is a Climate Science Ph.D. student at Scripps Institution of Oceanography, working with Dr. Ralph F. Keeling.
+Hi, welcome to my webpage! I am a Climate Sciences Ph.d. candidate at Scripps Institution of Oceanography working with <a href="https://rkeeling.scrippsprofiles.ucsd.edu/"> Dr. Ralph F. Keeling </a>.
