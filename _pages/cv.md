@@ -9,6 +9,8 @@ redirect_from:
 
 {% include base_path %}
 
+<a href="yuming-jin.github.io/_pages/CV.pdf" target="_blank">PDF.</a>
+
 Education
 ======
 * B.S. in Environmental Sciences, Donghua University, 2018
