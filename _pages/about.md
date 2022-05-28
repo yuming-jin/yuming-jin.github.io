@@ -23,3 +23,7 @@ To better understand how tracers like CO<sub>2</sub> and O<sub>2</sub> can tell 
 (4) How can we combine atmospheric CO<sub>2</sub> and O<sub>2</sub> measurements to study the biological activities in the surface ocean?
 
 Details about my research can be found <a href="https://yuming-jin.github.io/ri/">here</a>.
+
+<video width="800" height="600" controls>
+  <source type="video/mp4" src="https://yuming-jin.github.io/images/CO2Vis.mp4">
+</video>
