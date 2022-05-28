@@ -24,6 +24,5 @@ To better understand how tracers like CO<sub>2</sub> and O<sub>2</sub> can tell 
 
 Details about my research can be found <a href="https://yuming-jin.github.io/ri/">here</a>.
 
-<video width="800" height="600" controls>
-  <source type="video/mp4" src="https://yuming-jin.github.io/images/CO2Vis.mp4">
-</video>
+<iframe width="768" height="432" src="https://www.youtube.com/embed/1rZDJrVcie4?rel=0I?&autoplay=1" frameborder="0" allowfullscreen></iframe>
+(Video Credit: NASA's Goddard Space Flight Center)
