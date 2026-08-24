@@ -1,4 +1,4 @@
-# yumingjin — personal academic website
+# Yuming Jin — personal academic website
 
 Plain HTML + CSS. No build step, no dependencies. Hosted on GitHub Pages.
 

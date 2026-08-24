@@ -1,3 +1,6 @@
-.DS_Store
-Thumbs.db
 *.swp
+.DS_Store
+CV/
+Thumbs.db
+_scaffold.zip
+_v2.zip
