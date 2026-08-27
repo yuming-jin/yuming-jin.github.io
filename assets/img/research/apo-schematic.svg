@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 340" role="img"
+     aria-label="Schematic: atmospheric potential oxygen isolates the ocean signal because land O2 and CO2 exchanges cancel">
+<style>
+  .ink   { fill: #1f2124; }
+  .muted { fill: #63666c; }
+  .faint { fill: #8b8e94; }
+  .sky   { fill: #eef2f6; }
+  .sea   { fill: #dbe7ef; }
+  .land  { fill: #e7e9dc; }
+  .edge  { stroke: #b9bec4; fill: none; }
+  .o2s   { stroke: #2f6f8f; }  .o2f  { fill: #2f6f8f; }
+  .co2s  { stroke: #7a2e2e; }  .co2f { fill: #7a2e2e; }
+  .box   { fill: #ffffff; stroke: #c9ced4; }
+  text { font-family: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; }
+  .t  { font-size: 12px; }
+  .ts { font-size: 10.5px; }
+  .tt { font-size: 12.5px; font-weight: 650; }
+  .tb { font-size: 13px; font-weight: 600; }
+  @media (prefers-color-scheme: dark) {
+    .ink { fill: #e8e6e1; } .muted { fill: #a4a8ae; } .faint { fill: #7d8187; }
+    .sky { fill: #1d2226; } .sea { fill: #1b2a33; } .land { fill: #24261d; }
+    .edge { stroke: #3a4045; }
+    .o2s { stroke: #7fb4d0; } .o2f { fill: #7fb4d0; }
+    .co2s { stroke: #d99a9a; } .co2f { fill: #d99a9a; }
+    .box { fill: #16181a; stroke: #3a4045; }
+  }
+</style>
+<defs>
+  <marker id="a-o2" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="5.5" markerHeight="5.5" orient="auto-start-reverse">
+    <path d="M0.5 1 L9 5 L0.5 9 z" class="o2f"/>
+  </marker>
+  <marker id="a-co2" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="5.5" markerHeight="5.5" orient="auto-start-reverse">
+    <path d="M0.5 1 L9 5 L0.5 9 z" class="co2f"/>
+  </marker>
+</defs>
+
+<!-- ── atmosphere ── -->
+<rect x="10" y="12" width="440" height="158" rx="3" class="sky"/>
+<rect x="10" y="12" width="440" height="158" rx="3" class="edge"/>
+<text x="24" y="34" class="tt ink">Atmosphere</text>
+<text x="24" y="50" class="ts muted">aircraft profiles &#183; flask network</text>
+
+<!-- aircraft sampling profile -->
+<path d="M108 160 L108 92 L166 92 L166 160" class="edge" stroke-dasharray="4 4"/>
+<g class="ink" transform="translate(155,86) scale(-0.9,0.9)">
+  <path d="M0 6 L14 6 L20 0 L23 0 L20 6 L30 6 L33 3 L36 3 L34 7 L36 11 L33 11 L30 8 L20 8 L23 14 L20 14 L14 8 L0 8 z"/>
+</g>
+<g class="faint">
+  <circle cx="108" cy="160" r="2.4"/><circle cx="108" cy="130" r="2.4"/><circle cx="108" cy="104" r="2.4"/>
+  <circle cx="166" cy="104" r="2.4"/><circle cx="166" cy="132" r="2.4"/><circle cx="166" cy="160" r="2.4"/>
+</g>
+
+<!-- APO definition -->
+<rect x="238" y="60" width="198" height="62" rx="4" class="box"/>
+<text x="252" y="84" class="tb ink">APO = O<tspan dy="3" font-size="9">2</tspan><tspan dy="-3"> + 1.1 &#215; CO</tspan><tspan dy="3" font-size="9">2</tspan></text>
+<text x="252" y="105" class="ts muted">land signal cancels &#8594; ocean only</text>
+
+<!-- ── ocean ── -->
+<rect x="10" y="170" width="215" height="158" rx="3" class="sea"/>
+<rect x="10" y="170" width="215" height="158" rx="3" class="edge"/>
+<text x="24" y="300" class="tt ink">Ocean</text>
+<text x="24" y="316" class="ts muted">O<tspan dy="3" font-size="8.5">2</tspan><tspan dy="-3"> and CO</tspan><tspan dy="3" font-size="8.5">2</tspan><tspan dy="-3"> fluxes are independent</tspan></text>
+
+<line x1="70" y1="248" x2="70" y2="150" class="o2s" stroke-width="2" marker-end="url(#a-o2)"/>
+<text x="70" y="268" class="t o2f" text-anchor="middle">O<tspan dy="3" font-size="9">2</tspan></text>
+<line x1="152" y1="150" x2="152" y2="248" class="co2s" stroke-width="2" marker-end="url(#a-co2)"/>
+<text x="152" y="268" class="t co2f" text-anchor="middle">CO<tspan dy="3" font-size="9">2</tspan></text>
+
+<!-- ── land ── -->
+<rect x="235" y="170" width="215" height="158" rx="3" class="land"/>
+<rect x="235" y="170" width="215" height="158" rx="3" class="edge"/>
+<text x="249" y="300" class="tt ink">Land</text>
+<text x="249" y="316" class="ts muted">O<tspan dy="3" font-size="8.5">2</tspan><tspan dy="-3"> and CO</tspan><tspan dy="3" font-size="8.5">2</tspan><tspan dy="-3"> locked in a fixed ratio</tspan></text>
+
+<line x1="300" y1="248" x2="300" y2="150" class="o2s" stroke-width="2" marker-end="url(#a-o2)"/>
+<line x1="322" y1="150" x2="322" y2="248" class="co2s" stroke-width="2" marker-end="url(#a-co2)"/>
+<path d="M344 200 h26" class="edge"/>
+<text x="376" y="204" class="ts faint">cancels in</text>
+<text x="376" y="218" class="ts faint">APO</text>
+
+<!-- surface line on top of both -->
+<line x1="10" y1="170" x2="450" y2="170" class="edge"/>
+</svg>
