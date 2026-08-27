@@ -21,13 +21,16 @@ files/cv.pdf           Downloadable CV
 
 - **Colors / fonts** — change the variables in the `:root` block at the top of `style.css`. There is a matching dark-mode block below it.
 - **Sidebar** (name, title, contact, profile links) — duplicated in the `<aside class="sidebar">` block of all five HTML pages. Change one, change all five.
-- **Adding a publication** — copy an existing `<div class="pub">` block and edit it. Drop a matching 4:3 image into `assets/img/pubs/` and point the `<img src>` at it.
-- **Replacing a paper thumbnail** — overwrite the file in `assets/img/pubs/` keeping the same name; no HTML change needed. Any aspect ratio works, it's center-cropped to 4:3.
+- **Adding a publication** — open `publications.html`. There is a big comment block right under "Peer-reviewed publications" with a copy-paste template and notes. Copy it, paste under the right year heading, edit the marked parts.
+- **Adding the PDF** — drop the file into `files/papers/` first, then point the PDF link at it. Filename is up to you; `<year>-<journal>-<topic>.pdf` keeps the folder readable.
+- **A new year** — add `<h2 class="pub-year">2027</h2>` above the first paper of that year.
 - **Adding a news item** — copy an `<li>` inside `<ul class="news">` on `index.html`. Newest first.
 
 ## Publishing
 
-Any push to `main` redeploys automatically, usually within a minute.
+Any push to `main` redeploys automatically, usually within a minute. After it
+deploys, hard-refresh the page you changed (Cmd+Shift+R) — GitHub Pages caches
+HTML for 10 minutes and your browser will otherwise show you the old copy.
 
 ```bash
 git add -A
