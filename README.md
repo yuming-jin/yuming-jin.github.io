@@ -5,12 +5,12 @@ Plain HTML + CSS. No build step, no dependencies. Hosted on GitHub Pages.
 ## Files
 
 ```
-index.html          Home — bio, research interests, news
+index.html          Home — bio, research summary, CV download button
 research.html       Research — currently an empty placeholder
-publications.html   Papers (each with a thumbnail) + other publications
-cv.html             Web CV — education, positions, awards, teaching, service
-assets/img/pubs/    One thumbnail per paper, named <year>-<journal>-<topic>.jpg
-_drafts/            Not published: the old research.html and teaching.html
+publications.html   Papers, with HTML/PDF links per entry
+files/cv.pdf        The CV itself (no separate CV page)
+files/papers/       One PDF per paper
+_drafts/            Not published: the old research, teaching, and cv pages
 assets/css/style.css   All styling. Colors and fonts are CSS variables at the top.
 assets/img/            portrait.jpg and any figures
 files/cv.pdf           Downloadable CV
