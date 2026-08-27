@@ -6,10 +6,9 @@ Plain HTML + CSS. No build step, no dependencies. Hosted on GitHub Pages.
 
 ```
 index.html          Home — bio, research interests, news
-research.html       Research themes, software & data
-publications.html   Papers, preprints, talks
-teaching.html       Courses, mentoring, outreach
-cv.html             Web CV
+publications.html   Papers, preprints, other publications
+cv.html             Web CV — education, positions, awards, teaching, service
+_drafts/            Not published: research.html and teaching.html, parked for later
 assets/css/style.css   All styling. Colors and fonts are CSS variables at the top.
 assets/img/            portrait.jpg and any figures
 files/cv.pdf           Downloadable CV
