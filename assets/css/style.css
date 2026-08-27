@@ -342,8 +342,10 @@ footer.site a { color: var(--text-faint); }
 .project:last-of-type { border-bottom: none; }
 
 .project figure { margin: 0; }
-.project figure img {
+.project figure img,
+.project figure video {
   width: 100%;
+  display: block;
   border: 1px solid var(--border);
   border-radius: 4px;
   background: var(--bg-soft);
