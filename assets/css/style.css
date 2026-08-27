@@ -363,16 +363,13 @@ footer.site a { color: var(--text-faint); }
   color: var(--text-faint);
   margin: 0 0 .35rem;
 }
-.project-pubs ul { list-style: none; padding: 0; margin: 0; }
-.project-pubs li {
+.project-pubs .pubs-list {
   font-size: .86rem;
-  line-height: 1.5;
+  line-height: 1.55;
   color: var(--text-muted);
-  padding-left: .85rem;
-  text-indent: -.85rem;
-  margin-bottom: .3rem;
+  margin: 0;
+  max-width: none;
 }
-.project-pubs li::before { content: "\2013\00a0"; color: var(--text-faint); }
 .project-pubs a { color: var(--text-muted); }
 .project-pubs a:hover { color: var(--accent); }
 
