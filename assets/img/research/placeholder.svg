@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-label="Figure placeholder">
+  <rect x="1" y="1" width="398" height="298" rx="4" fill="none" stroke="#a8a8a8" stroke-width="1.5" stroke-dasharray="7 6"/>
+  <g fill="none" stroke="#a8a8a8" stroke-width="1.5" opacity=".75">
+    <path d="M60 240 H345"/><path d="M60 240 V70"/>
+    <path d="M70 205 C120 200 150 120 190 130 S280 105 335 92" stroke-width="2.2"/>
+    <path d="M70 225 C130 222 165 175 205 178 S285 150 335 140" stroke-width="2.2" stroke-dasharray="5 5"/>
+  </g>
+  <text x="200" y="278" text-anchor="middle" font-family="-apple-system, Helvetica, Arial, sans-serif"
+        font-size="15" letter-spacing="2.5" fill="#a8a8a8">FIGURE</text>
+</svg>
