@@ -346,10 +346,13 @@ footer.site a { color: var(--text-faint); }
 .project figure video {
   width: 100%;
   display: block;
+  height: auto;
   border: 1px solid var(--border);
   border-radius: 4px;
   background: var(--bg-soft);
 }
+.project figure video { aspect-ratio: 16 / 9; background: #000; }
+
 .project figcaption {
   font-size: .8rem;
   line-height: 1.45;
