@@ -54,7 +54,7 @@ body {
 a { color: var(--link); text-decoration: none; border-bottom: 1px solid transparent; transition: border-color .15s ease; }
 a:hover { border-bottom-color: currentColor; }
 
-img { max-width: 100%; height: auto; display: block; }
+img, video { max-width: 100%; height: auto; display: block; }
 
 /* keep sub/superscripts from stretching line spacing */
 sub, sup { font-size: .75em; line-height: 0; position: relative; vertical-align: baseline; }
@@ -390,4 +390,11 @@ footer.site a { color: var(--text-faint); }
 @media (max-width: 780px) {
   .project { grid-template-columns: 1fr; gap: 1.3rem; padding: 1.8rem 0; }
   .project-aside { max-width: 420px; }
+}
+
+/* Justified body prose */
+.hero-main p,
+.project-body p {
+  text-align: justify;
+  hyphens: auto;
 }
