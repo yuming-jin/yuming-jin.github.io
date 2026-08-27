@@ -171,6 +171,9 @@ p  { margin: 0 0 1.05rem; max-width: var(--measure); }
   padding: .16rem .5rem; border: 1px solid var(--border); border-radius: 3px; color: var(--text-muted);
 }
 .pub .links a:hover { border-color: var(--accent); color: var(--accent); }
+.pub .links a.press { background: var(--accent-soft); border-color: transparent;
+                      color: var(--accent); font-weight: 600; }
+.pub .links a.press:hover { border-color: var(--accent); }
 
 /* Research cards */
 .research-item { padding: 1.6rem 0; border-bottom: 1px solid var(--border); }
