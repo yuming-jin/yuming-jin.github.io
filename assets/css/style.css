@@ -154,8 +154,11 @@ p  { margin: 0 0 1.05rem; max-width: var(--measure); }
 
 /* Publications */
 .pub-year { font-family: var(--font-sans); font-size: .8rem; font-weight: 700; letter-spacing: .08em; color: var(--text-faint); margin: 2.4rem 0 .9rem; }
-.pub { display: grid; grid-template-columns: 2.2rem 1fr; gap: .9rem; padding: .95rem 0; border-bottom: 1px solid var(--border); }
+.pub { display: grid; grid-template-columns: 150px minmax(0, 1fr); gap: 1.3rem; padding: 1.25rem 0; border-bottom: 1px solid var(--border); align-items: start; }
 .pub:last-child { border-bottom: none; }
+.pub .thumb { display: block; border: 1px solid var(--border); border-radius: 3px; overflow: hidden; background: var(--bg-soft); line-height: 0; }
+.pub .thumb:hover { border-color: var(--accent); }
+.pub .thumb img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; display: block; }
 .pub .num { color: var(--text-faint); font-size: .85rem; font-variant-numeric: tabular-nums; padding-top: .15rem; }
 .pub .title { font-weight: 600; margin: 0 0 .2rem; max-width: none; }
 .pub .authors { font-size: .9rem; color: var(--text-muted); margin: 0 0 .2rem; max-width: none; }
@@ -208,7 +211,7 @@ footer.site a { color: var(--text-faint); }
   .sidebar .contact, .sidebar .profile-links { margin-bottom: .6rem; }
   footer.site { grid-column: 1; }
   h1 { font-size: 1.6rem; }
-  .pub { grid-template-columns: 1fr; gap: 0; }
+  .pub { grid-template-columns: 110px minmax(0, 1fr); gap: .9rem; }
   .pub .num { display: none; }
   .news li { grid-template-columns: 1fr; gap: .1rem; }
 }
