@@ -240,6 +240,7 @@ footer.site a { color: var(--text-faint); }
 }
 
 .page-home { max-width: 1080px; }   /* home: portrait + text side by side */
+.page-research { max-width: 990px; }  /* research: wider figure column */
 
 .page .nav { margin-bottom: 2.8rem; }
 
@@ -332,8 +333,8 @@ footer.site a { color: var(--text-faint); }
 
 .project {
   display: grid;
-  grid-template-columns: 320px minmax(0, 1fr);
-  gap: 2.2rem;
+  grid-template-columns: 400px minmax(0, 1fr);
+  gap: 2.6rem;
   align-items: start;
   padding: 2.4rem 0;
   border-bottom: 1px solid var(--border);
