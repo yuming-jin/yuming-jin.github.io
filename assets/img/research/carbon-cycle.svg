@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 456" role="img"
+     aria-label="Schematic of the global carbon cycle: anthropogenic fluxes and reservoirs, 2015 to 2024 average, in gigatonnes of carbon per year">
+<style>
+  .ink{fill:#1f2124}.muted{fill:#63666c}.faint{fill:#8b8e94}
+  .sky{fill:#eef3f7}.ground{fill:#f1f0e8}.sea{fill:#dfeaee}
+  .edge{stroke:#c2c7cc;fill:none}
+  .fos{fill:#8b8e94;stroke:#8b8e94}
+  .luc{fill:#c98f3c;stroke:#c98f3c}
+  .lnd{fill:#6f9350;stroke:#6f9350}
+  .ocn{fill:#3d857c;stroke:#3d857c}
+  .atm{fill:#4a90b8;stroke:#4a90b8}
+  .nat{stroke:#a9aeb3;fill:#a9aeb3}
+  text{font-family:-apple-system,"Segoe UI",Helvetica,Arial,sans-serif}
+  .tn{font-size:11.5px}.tt{font-size:12.5px;font-weight:650}.tb{font-size:15px;font-weight:700}
+  @media (prefers-color-scheme: dark){
+    .ink{fill:#e8e6e1}.muted{fill:#a4a8ae}.faint{fill:#7d8187}
+    .sky{fill:#1c2226}.ground{fill:#21221c}.sea{fill:#18262b}
+    .edge{stroke:#3a4045}
+    .fos{fill:#a9aeb3;stroke:#a9aeb3}
+    .luc{fill:#dfae6a;stroke:#dfae6a}
+    .lnd{fill:#94b877;stroke:#94b877}
+    .ocn{fill:#63b0a4;stroke:#63b0a4}
+    .atm{fill:#7fb4d0;stroke:#7fb4d0}
+    .nat{stroke:#6d7378;fill:#6d7378}
+  }
+</style>
+<defs>
+  <marker id="m-fos" viewBox="0 0 10 10" refX="6.5" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" class="fos"/></marker>
+  <marker id="m-luc" viewBox="0 0 10 10" refX="6.5" refY="5" markerWidth="4.8" markerHeight="4.8" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" class="luc"/></marker>
+  <marker id="m-lnd" viewBox="0 0 10 10" refX="6.5" refY="5" markerWidth="4.6" markerHeight="4.6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" class="lnd"/></marker>
+  <marker id="m-ocn" viewBox="0 0 10 10" refX="6.5" refY="5" markerWidth="4.3" markerHeight="4.3" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" class="ocn"/></marker>
+  <marker id="m-nat" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0.5 1 L9 5 L0.5 9 z" class="nat"/></marker>
+  <clipPath id="frame"><rect x="8" y="8" width="704" height="440" rx="4"/></clipPath>
+</defs>
+
+<g clip-path="url(#frame)">
+  <rect x="8" y="8" width="704" height="440" class="sky"/>
+  <path d="M8 232 H330 L392 262 H712 V448 H8 Z" class="ground"/>
+  <path d="M392 262 H712 V448 H392 Z" class="sea"/>
+  <path d="M8 232 H330 L392 262 H712" class="edge"/>
+</g>
+<rect x="8" y="8" width="704" height="440" rx="4" class="edge"/>
+
+<text x="24" y="30" class="tn faint">Fluxes in GtC per year &#183; 2015&#8211;2024 average</text>
+
+<!-- atmosphere -->
+<circle cx="316" cy="62" r="7" class="atm"/>
+<text x="332" y="60" class="tt ink">Atmospheric CO<tspan dy="3" font-size="9">2</tspan><tspan dy="-3"> &#8212; 885 GtC</tspan></text>
+<text x="332" y="78" class="tn atm" stroke="none">growing by 5.6 each year</text>
+
+<!-- fossil emissions -->
+<text x="62" y="112" class="tn muted" text-anchor="middle">fossil CO<tspan dy="3" font-size="8.5">2</tspan></text>
+<text x="62" y="134" class="tb fos" stroke="none" text-anchor="middle">9.8</text>
+<line x1="62" y1="238" x2="62" y2="152" class="fos" stroke-width="11" marker-end="url(#m-fos)"/>
+
+<!-- land-use change -->
+<text x="152" y="146" class="tn muted" text-anchor="middle">land-use change</text>
+<text x="152" y="168" class="tb luc" stroke="none" text-anchor="middle">1.4</text>
+<line x1="152" y1="238" x2="152" y2="184" class="luc" stroke-width="4" marker-end="url(#m-luc)"/>
+
+<!-- land sink -->
+<text x="244" y="146" class="tn muted" text-anchor="middle">land sink</text>
+<text x="244" y="168" class="tb lnd" stroke="none" text-anchor="middle">2.4</text>
+<line x1="244" y1="182" x2="244" y2="238" class="lnd" stroke-width="5.5" marker-end="url(#m-lnd)"/>
+
+<!-- natural land exchange -->
+<text x="322" y="176" class="tn faint" text-anchor="middle">130</text>
+<line x1="313" y1="186" x2="313" y2="230" class="nat" stroke-width="1.4" marker-end="url(#m-nat)"/>
+<line x1="331" y1="230" x2="331" y2="186" class="nat" stroke-width="1.4" marker-end="url(#m-nat)"/>
+
+<!-- ocean sink -->
+<text x="524" y="146" class="tn muted" text-anchor="middle">ocean sink</text>
+<text x="524" y="168" class="tb ocn" stroke="none" text-anchor="middle">3.2</text>
+<line x1="524" y1="182" x2="524" y2="268" class="ocn" stroke-width="6.5" marker-end="url(#m-ocn)"/>
+
+<!-- natural ocean exchange -->
+<text x="626" y="176" class="tn faint" text-anchor="middle">80</text>
+<line x1="617" y1="186" x2="617" y2="260" class="nat" stroke-width="1.4" marker-end="url(#m-nat)"/>
+<line x1="635" y1="260" x2="635" y2="186" class="nat" stroke-width="1.4" marker-end="url(#m-nat)"/>
+
+<!-- ── reservoirs: land ── -->
+<circle cx="196" cy="300" r="10" class="lnd" opacity=".8"/>
+<text x="196" y="326" class="tt ink" text-anchor="middle">Vegetation</text>
+<text x="196" y="342" class="tn muted" text-anchor="middle">450 GtC</text>
+
+<circle cx="196" cy="378" r="17" class="lnd" opacity=".5"/>
+<text x="196" y="410" class="tt ink" text-anchor="middle">Soils &amp; permafrost</text>
+<text x="196" y="426" class="tn muted" text-anchor="middle">3100 GtC</text>
+
+<circle cx="76" cy="330" r="15" class="fos" opacity=".5"/>
+<text x="76" y="362" class="tt ink" text-anchor="middle">Fossil reserves</text>
+<text x="76" y="378" class="tn muted" text-anchor="middle">905 GtC</text>
+
+<!-- ── reservoirs: ocean ── -->
+<circle cx="452" cy="304" r="4" class="ocn" opacity=".85"/>
+<text x="452" y="326" class="tt ink" text-anchor="middle">Marine biota</text>
+<text x="452" y="342" class="tn muted" text-anchor="middle">3 GtC</text>
+
+<circle cx="452" cy="382" r="12" class="ocn" opacity=".45"/>
+<text x="452" y="412" class="tt ink" text-anchor="middle">Surface sediments</text>
+<text x="452" y="428" class="tn muted" text-anchor="middle">1750 GtC</text>
+
+<circle cx="596" cy="372" r="40" class="ocn" opacity=".45"/>
+<text x="596" y="316" class="tt ink" text-anchor="middle">Dissolved inorganic carbon</text>
+<text x="596" y="332" class="tn muted" text-anchor="middle">37,000 GtC</text>
+</svg>
