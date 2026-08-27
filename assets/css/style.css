@@ -156,6 +156,7 @@ p  { margin: 0 0 1.05rem; max-width: var(--measure); }
 .pub-year { font-family: var(--font-sans); font-size: .8rem; font-weight: 700; letter-spacing: .08em; color: var(--text-faint); margin: 2.4rem 0 .9rem; }
 .pub { display: grid; grid-template-columns: 150px minmax(0, 1fr); gap: 1.3rem; padding: 1.25rem 0; border-bottom: 1px solid var(--border); align-items: start; }
 .pub:last-child { border-bottom: none; }
+.pub.no-thumb { grid-template-columns: minmax(0, 1fr); }
 .pub .thumb { display: block; border: 1px solid var(--border); border-radius: 3px; overflow: hidden; background: var(--bg-soft); line-height: 0; }
 .pub .thumb:hover { border-color: var(--accent); }
 .pub .thumb img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; display: block; }
