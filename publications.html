@@ -67,6 +67,11 @@
 
     <h2 class="section-rule">Peer-reviewed publications</h2>
 
+    <!-- Numbering is automatic and counts DOWN. When you add a paper,
+         bump the number below (counter-reset) by one: it must equal
+         the number of papers in this section PLUS ONE. -->
+    <div class="pub-list" style="counter-reset: pubnum 12;">
+
     <!-- ==========================================================
          HOW TO ADD A PAPER
 
@@ -74,6 +79,14 @@
          under the right year heading, and edit the five parts marked
          <<< . Newest year goes at the top. If the year has no heading
          yet, add one:  <h2 class="pub-year">2027</h2>
+
+         Numbering is automatic (see counter-reset above) -- never type
+         a number into a paper block.
+
+         The Altmetric badge shows the paper's online attention. Just
+         repeat the DOI in data-doi; the badge stays invisible until
+         the paper has been mentioned somewhere. Delete the line if
+         the paper has no DOI.
 
          The PDF line is optional -- delete it if you have no PDF.
          Put the PDF in files/papers/ first; the filename must match.
@@ -87,7 +100,9 @@
       <div class="links">
           <a href="https://doi.org/10.xxxx/xxxxx">HTML</a>                                      <<< DOI link
           <a href="files/papers/2027-journal-topic.pdf">PDF</a>                                 <<< PDF filename
-      </div>
+          <span class="altmetric-embed" data-badge-type="donut" data-badge-popover="right"
+                data-hide-no-mentions="true" data-doi="10.xxxx/xxxxx"></span>                    <<< same DOI
+        </div>
     </div>
          ---------------------------------------------------------
 
@@ -108,6 +123,7 @@
           <a href="https://doi.org/10.1073/pnas.2523984123">HTML</a>
           <a href="files/papers/2026-pnas-airborne-surveys.pdf">PDF</a>
           <a class="press" href="https://news.ucar.edu/133076/airborne-observations-provide-clarity-where-carbon-going">NCAR News</a>
+          <span class="altmetric-embed" data-badge-type="donut" data-badge-popover="right" data-hide-no-mentions="true" data-doi="10.1073/pnas.2523984123"></span>
         </div>
     </div>
     <div class="pub">
@@ -120,6 +136,7 @@
           <a class="press" href="https://www.nature.com/articles/s41561-026-01964-9">News &amp; Views</a>
           <a class="press" href="https://news.ucar.edu/133069/aircraft-measurements-reveal-surprisingly-strong-southern-ocean-biological-productivity">NCAR News</a>
           <a class="press" href="https://www.earth.com/news/the-southern-ocean-may-be-pulling-far-more-carbon-from-the-air-than-scientists-thought/">earth.com</a>
+          <span class="altmetric-embed" data-badge-type="donut" data-badge-popover="right" data-hide-no-mentions="true" data-doi="10.1038/s41561-026-01944-z"></span>
         </div>
     </div>
     <h2 class="pub-year">2025</h2>
@@ -130,6 +147,7 @@
         <div class="links">
           <a href="https://doi.org/10.5194/gmd-18-5937-2025">HTML</a>
           <a href="files/papers/2025-gmd-apo-mip.pdf">PDF</a>
+          <span class="altmetric-embed" data-badge-type="donut" data-badge-popover="right" data-hide-no-mentions="true" data-doi="10.5194/gmd-18-5937-2025"></span>
         </div>
     </div>
     <h2 class="pub-year">2024</h2>
@@ -140,6 +158,7 @@
         <div class="links">
           <a href="https://doi.org/10.1038/s43017-024-00600-7">HTML</a>
           <a href="files/papers/2024-nree-co2-amplitude.pdf">PDF</a>
+          <span class="altmetric-embed" data-badge-type="donut" data-badge-popover="right" data-hide-no-mentions="true" data-doi="10.1038/s43017-024-00600-7"></span>
         </div>
     </div>
     <div class="pub">
@@ -149,6 +168,7 @@
         <div class="links">
           <a href="https://doi.org/10.1073/pnas.2309333121">HTML</a>
           <a href="files/papers/2024-pnas-southern-ocean-co2.pdf">PDF</a>
+          <span class="altmetric-embed" data-badge-type="donut" data-badge-popover="right" data-hide-no-mentions="true" data-doi="10.1073/pnas.2309333121"></span>
         </div>
     </div>
     <h2 class="pub-year">2023</h2>
@@ -159,6 +179,7 @@
         <div class="links">
           <a href="https://doi.org/10.1029/2023GB007827">HTML</a>
           <a href="files/papers/2023-gbc-apo-airborne.pdf">PDF</a>
+          <span class="altmetric-embed" data-badge-type="donut" data-badge-popover="right" data-hide-no-mentions="true" data-doi="10.1029/2023GB007827"></span>
         </div>
     </div>
     <h2 class="pub-year">2022</h2>
@@ -169,6 +190,7 @@
         <div class="links">
           <a href="https://doi.org/10.1029/2021JD035892">HTML</a>
           <a href="files/papers/2022-jgr-mauna-loa.pdf">PDF</a>
+          <span class="altmetric-embed" data-badge-type="donut" data-badge-popover="right" data-hide-no-mentions="true" data-doi="10.1029/2021JD035892"></span>
         </div>
     </div>
     <h2 class="pub-year">2021</h2>
@@ -179,6 +201,7 @@
         <div class="links">
           <a href="https://doi.org/10.1029/2021JC017510">HTML</a>
           <a href="files/papers/2021-jgr-oceans-o2-heat.pdf">PDF</a>
+          <span class="altmetric-embed" data-badge-type="donut" data-badge-popover="right" data-hide-no-mentions="true" data-doi="10.1029/2021JC017510"></span>
         </div>
     </div>
     <div class="pub">
@@ -188,6 +211,7 @@
         <div class="links">
           <a href="https://doi.org/10.5194/acp-21-217-2021">HTML</a>
           <a href="files/papers/2021-acp-isentropic.pdf">PDF</a>
+          <span class="altmetric-embed" data-badge-type="donut" data-badge-popover="right" data-hide-no-mentions="true" data-doi="10.5194/acp-21-217-2021"></span>
         </div>
     </div>
     <h2 class="pub-year">2018</h2>
@@ -197,6 +221,7 @@
       <p class="venue"><span class="journal">New Journal of Chemistry</span>, 42(1), 411&ndash;419, 2018</p>
         <div class="links">
           <a href="https://doi.org/10.1039/C7NJ03367B">HTML</a>
+          <span class="altmetric-embed" data-badge-type="donut" data-badge-popover="right" data-hide-no-mentions="true" data-doi="10.1039/C7NJ03367B"></span>
         </div>
     </div>
     <h2 class="pub-year">2017</h2>
@@ -206,7 +231,10 @@
       <p class="venue"><span class="journal">Chemosphere</span>, 173, 529&ndash;534, 2017</p>
         <div class="links">
           <a href="https://doi.org/10.1016/j.chemosphere.2017.01.093">HTML</a>
+          <span class="altmetric-embed" data-badge-type="donut" data-badge-popover="right" data-hide-no-mentions="true" data-doi="10.1016/j.chemosphere.2017.01.093"></span>
         </div>
+    </div>
+
     </div>
 
     <h2 class="section-rule">Other publications</h2>
@@ -222,5 +250,6 @@
   </footer>
 
 </div>
+<script async src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
 </body>
 </html>
