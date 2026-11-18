@@ -6,6 +6,8 @@ gets a "PDF" button next to "HTML" on the publications page.
 Where a publisher forbids posting the typeset version, use your accepted
 manuscript — that is almost always permitted, and is what most people post.
 
+    2026-essd-air-sea-o2-flux.pdf
+    2026-science-o2-carbon-sinks.pdf
     2026-pnas-airborne-surveys.pdf
     2026-natgeo-southern-ocean-o2.pdf
     2025-gmd-apo-mip.pdf
